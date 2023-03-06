@@ -1,0 +1,48 @@
+{
+	"request": [
+		{
+			"action": "redirect",
+			"enable": true,
+			"exclude": "",
+			"group": "bing-redirect",
+			"isFunction": false,
+			"matchType": "prefix",
+			"name": "bing-cn-to-www",
+			"pattern": "https://cn.bing.com",
+			"ruleType": "redirect",
+			"to": "https://www.bing.com"
+		}
+	],
+	"sendHeader": [
+		{
+			"action": {
+				"name": "x-forwarded-for",
+				"value": "13.107.21.200,204.79.197.200"
+			},
+			"enable": true,
+			"exclude": "",
+			"group": "bing-direct",
+			"isFunction": false,
+			"matchType": "regexp",
+			"name": "bing",
+			"pattern": "^http(s?)://www\\.bing\\.com/(.*)",
+			"ruleType": "modifySendHeader"
+		},
+		{
+			"enable": true,
+			"name": "disguised-edge",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^http(s?)://(.*).bing\\.com/(.*)",
+			"exclude": "",
+			"group": "disguised-edge",
+			"isFunction": false,
+			"action": {
+				"name": "user-agent",
+				"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63"
+			}
+		}
+	],
+	"receiveHeader": [],
+	"receiveBody": []
+}
