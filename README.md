@@ -1,4 +1,4 @@
-# header-editor-config
+# cnbing-to-bing
 国内bing重定向至bing，修复搜索出现Ref A和Ref B代码问题
 # 关于bing-direct
 如果觉得搜索速度较慢，可以修改该规则内`头内容`中的**ip**
