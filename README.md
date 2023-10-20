@@ -6,5 +6,5 @@
 使用[多地ping](https://www.itdog.cn/ping/bing.com)进行寻找最快ip
 
 # 使用方法(两种)
-- [点击下载](https://gist.githubusercontent.com/MengNianxiaoyao/9955c078d0801ac9d7ab30f1700538d4/raw/7c42b3af595755ea1087f48a6a6aa4fdbe4eb73a/cn.bingtobing.json)，导入Header Editor
-- 将[URL](https://gist.githubusercontent.com/MengNianxiaoyao/9955c078d0801ac9d7ab30f1700538d4/raw/7c42b3af595755ea1087f48a6a6aa4fdbe4eb73a/cn.bingtobing.json)导入Header Editor
+- [点击下载](https://ghproxy.com/gist.githubusercontent.com/MengNianxiaoyao/9955c078d0801ac9d7ab30f1700538d4/raw/7c42b3af595755ea1087f48a6a6aa4fdbe4eb73a/cn.bingtobing.json)，导入Header Editor
+- 将[URL](https://ghproxy.com/gist.githubusercontent.com/MengNianxiaoyao/9955c078d0801ac9d7ab30f1700538d4/raw/7c42b3af595755ea1087f48a6a6aa4fdbe4eb73a/cn.bingtobing.json)导入Header Editor
