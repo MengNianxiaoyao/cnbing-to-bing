@@ -7,4 +7,4 @@
 
 # 使用方法(两种)
 - [点击下载](https://ghproxy.com/raw.githubusercontent.com/MengNianxiaoyao/cnbing-to-bing/master/cn.bingtobing.json)，导入Header Editor
-- 将[URL](https://ghproxy.com/raw.githubusercontent.com/MengNianxiaoyao/cnbing-to-bing/master/cn.bingtobing.json)导入Header Editor
+- 将[URL](https://mirror.ghproxy.com/raw.githubusercontent.com/MengNianxiaoyao/cnbing-to-bing/master/cn.bingtobing.json)导入Header Editor
